@@ -1,3 +1,46 @@
+/* stylelint-disable custom-property-pattern */
+@theme {
+  --spacing-1000: 5rem;
+  --spacing-800: 4rem;
+  --spacing-900: 4.5rem;
+  --spacing-700: 3.5rem;
+  --spacing-1400: 7rem;
+  --spacing-400: 2rem;
+  --spacing-200: 1rem;
+  --spacing-500: 2.5rem;
+  --spacing-100: 0.5rem;
+  --spacing-300: 1.5rem;
+  --spacing-50: 0.25rem;
+  --fluid-504-544: clamp(31.5rem, 28.6429rem + 5.9524vw, 34rem);
+  --fluid-hero: clamp(10rem, 1.4719rem + 36.3868vw, 18.9375rem);
+  --fontsize-desktop-textpreset1: 4rem;
+  --fontsize-desktop-textpreset2: 2.5rem;
+  --fontsize-desktop-textpreset3: 1rem;
+  --fontsize-desktop-textpreset4: 1.125rem;
+  --fontsize-desktop-textpreset5: 1rem;
+  --fontsize-tablet-textpreset1: 3rem;
+  --fontsize-tablet-textpreset2: 2.25rem;
+  --fontsize-tablet-textpreset3: 0.875rem;
+  --fontsize-tablet-textpreset4: 1rem;
+  --fontsize-mobile-textpreset1: 2.5rem;
+  --fontsize-mobile-textpreset2: 2rem;
+  --fontsize-mobile-textpreset3: 0.75rem;
+  --color-*: initial;
+  --color-cyan600: #4d96a9;
+  --color-cyan300: #8fe3f9;
+  --color-purple600: #855fb1;
+  --color-purple300: #d9b8ff;
+  --color-slate900: #28283d;
+  --color-white: #fafafa;
+  --color-slate600: #87879d;
+  --color-slate300: #d1d1df;
+}
+
+@font-face {
+  font-family: RedHatDisplay;
+  src: url("/font/RedHatDisplay-VariableFont_wght.ttf");
+}
+
 body {
-    background: rgb(0 200 200);
+  font-family: RedHatDisplay, Arial, Helvetica, sans-serif;
 }
